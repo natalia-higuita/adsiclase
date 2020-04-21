@@ -1,6 +1,0 @@
-https://github.com/EderLara/adsiClases.git
-git init
-git add .
-rse
-git remote add origin https://github.com/-usuario-/adsiClases.git
-git push -u origin master gitgitadd

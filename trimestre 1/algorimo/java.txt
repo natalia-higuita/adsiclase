@@ -1,0 +1,41 @@
+     
+        //int numero[];
+       // int numer [] =new int[3]
+       /*int numero []={12,45,32,16,8,9,0};
+       numero
+        for (int i=0; i<)
+        */
+       //llenar vector con valores del uduario
+      /* String nombres[]=new String[4];
+          Scanner leer =new Scanner(System.in);
+          
+       for (int i= 0; i <4; i++) {
+          System.out.println("por favor ingrese un nombre para la posicion"+i+"del vecctor");
+        nombres[i]=leer.nextLine();
+    }
+   for (int i= 0; i <4; i++) {
+       System.out.println("el valor delvector en el indece"+i+" es: "+nombres [i]);
+   }
+    }
+    
+}
+       
+*/
+   /*  Scanner leer =new Scanner(System.in);
+     System.out.println(System.in);
+      
+     int n=leer.nextInt();
+     
+      String nombres[]=new String[4];
+       
+       for (int i= 0; i < n; i++) {
+          System.out.println("por favor ingrese un nombre para la posicion"+i+"del vecctor");
+        nombres[i]=leer.nextLine();
+    }
+   for (int i=n-1; i >=0; i--) {
+       System.out.println("el valor delvector en el indece"+i+" es: "+nombres [i]);
+   }
+    }
+    
+}
+*/
