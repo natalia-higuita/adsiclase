@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--un formulario es un conjunto de controles (botones,cajas de texto,casillas de 
+    verificacion ,botones de radio,etc...),permite al usuario introducir  datos y enviarlos al servidor 
+web para su procesamiento
+estructura semàntica correcta puede llevar class e id -->
+<for action="ejemplo"="" method="" id="">
+    <!--accion;contiene el nombre del agente que procesaràlos datos remitidos por el servidor(por ejempo:unscript
+    dehph) methood define lamanera de enviar los datos al servidor.los valoresposibles son:
+get: los valores seañaden a la direccion indicadaen el atributo action
+post:los  valores se envian 
+
+los atributos alos que  queremos hacer referencias van dentro de un fildeset.esa 
+etiqueta englobara cada uno de los controles -->
+<fieldset>
+    <legend>formulario de inscripcion</legend>
+    <input>
+</fieldset>
+<fieldset>
+    <legend>datos personales</legend>
+    <input type="text" name="nombre" value="Ana">
+    <br>
+    <br>
+    <input type="text" placeholder="usuario">
+    <br>
+    <input type="text" placeholder="contraseña">
+    <br>
+    <input type="email">
+    <br>
+    <input type="number">
+
+    <!--elemento select norequiere de placeholder-->
+    <br>
+    <select>
+        <option value=""> seleccione una opciòn </option>
+        <option value=""> opciòn 1 </option>
+        <option value="">opciòn 2 </option>
+        <option value=""> opciòn 3 </option>
+    </select>
+</fieldset>
+<fieldset>
+    <input type="submit" value="enviar">
+    <!--controles en el formulario--input tiene varios atributos:type,pasword,text,number, email.
+    -->
+
+</for>
+</body>
+</html>

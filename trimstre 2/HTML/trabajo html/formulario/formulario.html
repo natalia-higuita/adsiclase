@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>DATALIST</h3>
+    <form action="formulario.html">
+       
+    <input list="paises">
+     <datalist id="paises">
+         <option value=cartagena >
+       <option value="medellin">
+        <option value="Bogotà" >
+        <option value="Cali" >
+    </datalist>
+  <br>
+
+  <h3>PERTTERN</h3>
+    
+        contraseña:<br>
+        <input type="password" name="contra" pattern="[a-zA-Z]{8}" title="contener al menos un número y una mayúscula y una minúscula, y al menos 8 o más
+        caracteres">
+       <input type="submit" id="enviar">         
+    
+     <br>
+     <h3>PLACEHODER</h3>
+    
+         <input type="text" name="p"
+         p" placeholder="escribe tu nombre"></input>
+         <br>
+         <input type="text" name="p"
+         p" placeholder="escribe tus apellidos"></input>
+         <br>
+         <input type="submit" id="enviar">
+
+       <br>
+         <h3>REQUIRED</h3>
+        <table>
+            <tr>
+                <td>usuario</td>
+                <td>
+                    <input type="text"required>
+                    
+
+                </td>
+            </tr>
+        </table>
+         <input type="submit" id="enviar">
+    </form>
+</body>
+</html>
